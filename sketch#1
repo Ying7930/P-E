@@ -1,0 +1,11 @@
+void setup() {
+  size(500, 500);
+  background(0);
+}
+void draw() {
+  int x=0;
+  while(x<470) {
+    ellipse(22+x, 22+x, 28, 28);
+    x+=22;
+  }
+}
