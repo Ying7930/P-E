@@ -1,0 +1,67 @@
+void setup(){
+  size(500, 515);
+  background(0, 0, 0);
+}
+
+void draw() {
+  int x=0; 
+  while(x<23) {
+    ellipse(23+(21*x), 25, 18, 18);
+    x = x+1;
+  }
+  int y=0;
+  while(y<21) {
+    ellipse(46+(21*y), 50, 18, 18);
+    y = y+1;
+  }
+  int z=0;
+  while(z<19){
+    ellipse(69+(21*z), 75, 18, 18);
+    z = z+1;
+  }
+  int i=0;
+  while(i<17) {
+    ellipse(92+(21*i), 100, 18, 18);
+    i = i+1;
+  }
+  int a=0;
+  while(a<15) {
+    ellipse((23*5)+(21*a), (25*5), 18, 18);
+    a = a+1;
+  }
+  int b=0;
+  while(b<13) {
+    ellipse((23*6)+(21*b), (25*6), 18, 18);
+    b = b+1;
+  }
+  int c=0;
+  while(c<11) {
+    ellipse((23*7)+(21*c), (25*7), 18, 18);
+    c = c+1;
+  }
+  int d=0;
+  while(d<9) {
+    ellipse((23*8)+(21*d), (25*8), 18, 18);
+    d = d+1;
+  }
+  int e=0;
+  while(e<7) {
+    ellipse((23*9)+(21*e), (25*9), 18, 18);
+    e = e+1;
+  }
+  int f=0;
+  while(f<5) {
+    ellipse((23*10)+(21*f), (25*10), 18, 18);
+    f = f+1;
+  }
+  int g=0;
+  while(g<3) {
+    ellipse((23*11)+(21*g), (25*11), 18, 18);
+    g = g+1;
+  }
+  int h=0;
+  while(h<1) {
+    ellipse((23*12)+(21*h), (25*12), 18, 18);
+    h = h+1;
+  }
+}
